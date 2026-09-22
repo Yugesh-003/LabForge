@@ -1,0 +1,3 @@
+import { createFileRoute } from "@tanstack/react-router";
+import { LabForgeApp } from "@/lib/labforge";
+export const Route = createFileRoute("/faculty/semester")({ head: () => ({ meta: [{ title: "Faculty semesters — LabForge" }, { name: "description", content: "Choose an assigned semester in the LabForge faculty workspace." }, { property: "og:title", content: "Faculty semesters — LabForge" }, { property: "og:description", content: "Choose an assigned semester in the LabForge faculty workspace." }, { property: "og:type", content: "website" }, { name: "twitter:card", content: "summary" }] }), component: () => <LabForgeApp screen="facultySemester" /> });
