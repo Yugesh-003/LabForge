@@ -42,7 +42,7 @@ LabForge strictly adheres to Electron security best practices:
      "productName": "LabForge Studio",
      "win": {
        "target": ["nsis", "portable"],
-       "icon": "public/favicon.ico"
+       "icon": "public/logo.png"
      },
      "files": [
        ".output/**/*",
